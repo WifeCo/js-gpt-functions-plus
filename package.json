@@ -3,4 +3,5 @@
   "version": "0.0.4",
   "description": "Never code again",
   "main": "build/index.js",
-  "files": 
+  "files": [
+    "build/**/*
