@@ -4,4 +4,6 @@
   "description": "Never code again",
   "main": "build/index.js",
   "files": [
-    "build/**/*
+    "build/**/*"
+  ],
+  "types":
