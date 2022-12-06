@@ -6,4 +6,4 @@
   "files": [
     "build/**/*"
   ],
-  "types":
+  "types": "./build/inde
