@@ -6,4 +6,6 @@
   "files": [
     "build/**/*"
   ],
-  "types": "./build/inde
+  "types": "./build/index.d.ts",
+  "scripts": {
+  
