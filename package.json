@@ -8,4 +8,4 @@
   ],
   "types": "./build/index.d.ts",
   "scripts": {
-  
+    "build": "
