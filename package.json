@@ -9,4 +9,4 @@
   "types": "./build/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
-    "lint
+    "lint": "eslint src
