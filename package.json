@@ -10,4 +10,4 @@
   "scripts": {
     "build": "tsc -p .",
     "lint": "eslint src/**/*.ts",
-    "fmt": "pr
+    "fmt": "prettier --write s
