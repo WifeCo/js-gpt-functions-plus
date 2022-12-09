@@ -8,4 +8,5 @@
   ],
   "types": "./build/index.d.ts",
   "scripts": {
-    "build": "
+    "build": "tsc -p .",
+    "lint
