@@ -9,4 +9,5 @@
   "types": "./build/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
-    "lint": "eslint src
+    "lint": "eslint src/**/*.ts",
+    "fmt": "pr
