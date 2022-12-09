@@ -10,4 +10,5 @@
   "scripts": {
     "build": "tsc -p .",
     "lint": "eslint src/**/*.ts",
-    "fmt": "prettier --write s
+    "fmt": "prettier --write src/**/*.ts",
+    "prepar
