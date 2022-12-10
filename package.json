@@ -11,4 +11,6 @@
     "build": "tsc -p .",
     "lint": "eslint src/**/*.ts",
     "fmt": "prettier --write src/**/*.ts",
-    "prepare": "npm run bu
+    "prepare": "npm run build"
+  },
+  "repos
