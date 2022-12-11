@@ -13,4 +13,5 @@
     "fmt": "prettier --write src/**/*.ts",
     "prepare": "npm run build"
   },
-  "repos
+  "repository": {
+    "type": "gi
