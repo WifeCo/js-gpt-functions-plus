@@ -29,4 +29,5 @@
   "author": "Alen Yohannan",
   "license": "MIT",
   "devDependencies": {
-    "@types/commo
+    "@types/common-tags": "^1.8.1",
+   
