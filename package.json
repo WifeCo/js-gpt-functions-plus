@@ -36,4 +36,4 @@
     "prettier": "^2.8.7"
   },
   "dependencies": {
-    "com
+    "common-tags": "^1.8.2"
