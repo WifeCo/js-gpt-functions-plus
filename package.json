@@ -36,4 +36,5 @@
     "prettier": "^2.8.7"
   },
   "dependencies": {
-    "common-tags": "^1.8.2"
+    "common-tags": "^1.8.2",
+    "openai": "^3.2
