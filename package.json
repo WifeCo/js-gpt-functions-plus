@@ -37,4 +37,6 @@
   },
   "dependencies": {
     "common-tags": "^1.8.2",
-    "openai": "^3.2
+    "openai": "^3.2.1"
+  }
+}
