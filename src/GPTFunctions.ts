@@ -1,1 +1,1 @@
-import { Configuration, O
+import { Configuration, OpenAIApi } from 'ope
