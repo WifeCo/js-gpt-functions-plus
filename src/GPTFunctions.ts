@@ -1,2 +1,2 @@
 import { Configuration, OpenAIApi } from 'openai'
-import { cleanCode, getContentStr
+import { cleanCode, getContentString, getDefaultCreate
