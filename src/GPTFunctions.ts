@@ -3,4 +3,4 @@ import { cleanCode, getContentString, getDefaultCreateOptions } from './utils'
 
 /**
  * Options for getting a result from the OpenAI API
- * @temp
+ * @template T The type of the f
