@@ -6,4 +6,5 @@ import { cleanCode, getContentString, getDefaultCreateOptions } from './utils'
  * @template T The type of the function
  */
 export type ResOptions<T> = {
-  
+    /**
+     * Rough 
