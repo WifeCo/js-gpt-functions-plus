@@ -7,4 +7,5 @@ import { cleanCode, getContentString, getDefaultCreateOptions } from './utils'
  */
 export type ResOptions<T> = {
     /**
-     * Rough type of the funct
+     * Rough type of the function
+     * @examp
