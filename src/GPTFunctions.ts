@@ -8,4 +8,5 @@ import { cleanCode, getContentString, getDefaultCreateOptions } from './utils'
 export type ResOptions<T> = {
     /**
      * Rough type of the function
-     * @example (number, number
+     * @example (number, number) => number
+    
