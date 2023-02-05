@@ -12,4 +12,4 @@ export type ResOptions<T> = {
      */
     func: string
     /**
-   
+     * The arguments for 
