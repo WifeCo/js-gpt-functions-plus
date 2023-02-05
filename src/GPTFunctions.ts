@@ -9,4 +9,5 @@ export type ResOptions<T> = {
     /**
      * Rough type of the function
      * @example (number, number) => number
-    
+     */
+    fu
