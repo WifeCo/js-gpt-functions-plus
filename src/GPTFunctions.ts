@@ -16,4 +16,5 @@ export type ResOptions<T> = {
      * @example ["4", "5"]
      */
     args: Array<string>
-    
+    /**
+     * A descri
