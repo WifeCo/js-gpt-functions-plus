@@ -17,4 +17,4 @@ export type ResOptions<T> = {
      */
     args: Array<string>
     /**
-     * A description of the functio
+     * A description of the function being call
