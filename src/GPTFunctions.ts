@@ -13,4 +13,5 @@ export type ResOptions<T> = {
     func: string
     /**
      * The arguments for the function
-     
+     * @example ["4", "5"]
+   
