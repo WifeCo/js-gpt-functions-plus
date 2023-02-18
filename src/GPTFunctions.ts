@@ -14,4 +14,5 @@ export type ResOptions<T> = {
     /**
      * The arguments for the function
      * @example ["4", "5"]
-   
+     */
+    args: Ar
