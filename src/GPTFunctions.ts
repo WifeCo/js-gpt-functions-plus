@@ -19,4 +19,6 @@ export type ResOptions<T> = {
     /**
      * A description of the function being called
      */
-    des
+    desc: string
+    /**
+  
