@@ -21,4 +21,4 @@ export type ResOptions<T> = {
      */
     desc: string
     /**
-     * The name of th
+     * The name of the OpenAI API model to
