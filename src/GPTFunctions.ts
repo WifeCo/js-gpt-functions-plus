@@ -21,4 +21,5 @@ export type ResOptions<T> = {
      */
     desc: string
     /**
-     * The name of the OpenAI API model to
+     * The name of the OpenAI API model to use
+     * @default 'g
