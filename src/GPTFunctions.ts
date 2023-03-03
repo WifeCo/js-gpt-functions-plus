@@ -24,4 +24,5 @@ export type ResOptions<T> = {
      * The name of the OpenAI API model to use
      * @default 'gpt-3.5-turbo'
      */
-    model?:
+    model?: string
+    /**
