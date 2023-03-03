@@ -26,3 +26,4 @@ export type ResOptions<T> = {
      */
     model?: string
     /**
+     * A funct
