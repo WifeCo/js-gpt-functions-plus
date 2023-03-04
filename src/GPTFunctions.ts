@@ -28,4 +28,4 @@ export type ResOptions<T> = {
     /**
      * A function to post-process the API response
      */
-    postProc
+    postProcess?: (response: 
