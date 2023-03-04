@@ -26,4 +26,4 @@ export type ResOptions<T> = {
      */
     model?: string
     /**
-     * A funct
+     * A function to post-pr
