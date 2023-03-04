@@ -27,4 +27,5 @@ export type ResOptions<T> = {
     model?: string
     /**
      * A function to post-process the API response
-  
+     */
+    postProc
