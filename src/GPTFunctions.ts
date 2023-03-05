@@ -30,3 +30,6 @@ export type ResOptions<T> = {
      */
     postProcess?: (response: unknown) => T
 }
+
+/**
+ * Options fo
