@@ -32,4 +32,4 @@ export type ResOptions<T> = {
 }
 
 /**
- * Options fo
+ * Options for creating a
