@@ -32,4 +32,4 @@ export type ResOptions<T> = {
 }
 
 /**
- * Options for creating a
+ * Options for creating a function using t
