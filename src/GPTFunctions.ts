@@ -32,4 +32,5 @@ export type ResOptions<T> = {
 }
 
 /**
- * Options for creating a function using t
+ * Options for creating a function using the OpenAI API
+ * 
