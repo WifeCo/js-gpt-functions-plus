@@ -33,4 +33,6 @@ export type ResOptions<T> = {
 
 /**
  * Options for creating a function using the OpenAI API
- * @template T The ty
+ * @template T The type of the function
+ */
+e
