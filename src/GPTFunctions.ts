@@ -37,4 +37,5 @@ export type ResOptions<T> = {
  */
 export type CreateFucntionOptions<T> = {
     /**
-     * Rough type o
+     * Rough type of the function
+ 
