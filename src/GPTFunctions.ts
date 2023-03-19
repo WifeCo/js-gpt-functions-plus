@@ -39,4 +39,6 @@ export type CreateFucntionOptions<T> = {
     /**
      * Rough type of the function
      */
-    func: s
+    func: string
+    /**
+   
