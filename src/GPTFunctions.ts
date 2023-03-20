@@ -44,3 +44,5 @@ export type CreateFucntionOptions<T> = {
      * Description of the function being defined
      */
     desc: string
+    /**
+     * The nam
