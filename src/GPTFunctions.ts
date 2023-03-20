@@ -41,4 +41,5 @@ export type CreateFucntionOptions<T> = {
      */
     func: string
     /**
-     * Description of the functi
+     * Description of the function being defined
+     
