@@ -45,4 +45,4 @@ export type CreateFucntionOptions<T> = {
      */
     desc: string
     /**
-     * The name of the OpenA
+     * The name of the OpenAI API model to u
