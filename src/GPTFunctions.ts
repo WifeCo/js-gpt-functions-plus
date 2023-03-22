@@ -45,4 +45,5 @@ export type CreateFucntionOptions<T> = {
      */
     desc: string
     /**
-     * The name of the OpenAI API model to u
+     * The name of the OpenAI API model to use
+     * @default 'gpt-3
