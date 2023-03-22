@@ -45,4 +45,4 @@ export type CreateFucntionOptions<T> = {
      */
     desc: string
     /**
-     * The nam
+     * The name of the OpenA
