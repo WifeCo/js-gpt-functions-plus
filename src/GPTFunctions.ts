@@ -50,4 +50,4 @@ export type CreateFucntionOptions<T> = {
      */
     model?: string
     /**
- 
+     * A functio
