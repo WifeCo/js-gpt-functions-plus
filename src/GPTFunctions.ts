@@ -50,4 +50,5 @@ export type CreateFucntionOptions<T> = {
      */
     model?: string
     /**
-     * A function to evaluate the function defini
+     * A function to evaluate the function definition
+     * @defa
