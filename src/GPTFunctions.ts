@@ -50,4 +50,4 @@ export type CreateFucntionOptions<T> = {
      */
     model?: string
     /**
-     * A function to evaluate the 
+     * A function to evaluate the function defini
