@@ -53,4 +53,6 @@ export type CreateFucntionOptions<T> = {
      * A function to evaluate the function definition
      * @default Function (Function constructor)
      */
-    evaluate?: (...args: st
+    evaluate?: (...args: string[]) => T
+}
+
