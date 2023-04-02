@@ -59,4 +59,4 @@ export type CreateFucntionOptions<T> = {
 export class GPTFunctions {
     private openai: OpenAIApi
 
-    public constr
+    public constructor(apiKey: string) 
