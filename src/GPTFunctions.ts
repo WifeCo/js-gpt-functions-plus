@@ -57,4 +57,4 @@ export type CreateFucntionOptions<T> = {
 }
 
 export class GPTFunctions {
-    private 
+    private openai: OpenAIAp
