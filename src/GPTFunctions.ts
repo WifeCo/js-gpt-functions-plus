@@ -56,3 +56,4 @@ export type CreateFucntionOptions<T> = {
     evaluate?: (...args: string[]) => T
 }
 
+export class GPTFunct
