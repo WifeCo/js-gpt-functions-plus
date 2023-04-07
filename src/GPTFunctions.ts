@@ -61,4 +61,5 @@ export class GPTFunctions {
 
     public constructor(apiKey: string) {
         const config = new Configuration({
-   
+            apiKey
+      
