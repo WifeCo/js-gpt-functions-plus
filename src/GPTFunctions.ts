@@ -60,4 +60,5 @@ export class GPTFunctions {
     private openai: OpenAIApi
 
     public constructor(apiKey: string) {
-        const config = new Con
+        const config = new Configuration({
+   
