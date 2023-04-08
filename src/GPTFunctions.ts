@@ -63,4 +63,4 @@ export class GPTFunctions {
         const config = new Configuration({
             apiKey
         })
-        this.openai =
+        this.openai = new OpenAIApi(co
