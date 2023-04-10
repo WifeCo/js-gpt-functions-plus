@@ -64,4 +64,7 @@ export class GPTFunctions {
             apiKey
         })
         this.openai = new OpenAIApi(config)
-   
+    }
+
+    /**
+     
