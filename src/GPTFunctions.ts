@@ -68,3 +68,4 @@ export class GPTFunctions {
 
     /**
      *  Generate the result of calling a function
+     *  @para
