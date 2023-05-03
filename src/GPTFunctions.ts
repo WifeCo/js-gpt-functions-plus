@@ -68,4 +68,4 @@ export class GPTFunctions {
 
     /**
      *  Generate the result of calling a function
-     *  @param {ResOptions} options - The optio
+     *  @param {ResOptions} options - The options for generating t
