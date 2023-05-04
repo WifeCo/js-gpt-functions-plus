@@ -69,4 +69,4 @@ export class GPTFunctions {
     /**
      *  Generate the result of calling a function
      *  @param {ResOptions} options - The options for generating the result.
-     *  @returns {Promise<T>} - A promise that r
+     *  @returns {Promise<T>} - A promise that resolves to the re
