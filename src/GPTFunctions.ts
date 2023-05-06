@@ -72,4 +72,4 @@ export class GPTFunctions {
      *  @returns {Promise<T>} - A promise that resolves to the result of calling the function.
      *  @template T
      */
-    public getResult = asy
+    public getResult = async <T = 'string
