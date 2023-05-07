@@ -74,3 +74,5 @@ export class GPTFunctions {
      */
     public getResult = async <T = 'string'>({
         func,
+        args,
+  
