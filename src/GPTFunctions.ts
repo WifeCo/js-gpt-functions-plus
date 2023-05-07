@@ -76,4 +76,5 @@ export class GPTFunctions {
         func,
         args,
         desc,
-        model = 'gpt-3.5-
+        model = 'gpt-3.5-turbo',
+       
