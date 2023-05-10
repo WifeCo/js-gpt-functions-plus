@@ -78,4 +78,4 @@ export class GPTFunctions {
         desc,
         model = 'gpt-3.5-turbo',
         postProcess = (res: unknown) => res as T
-    }: ResOptio
+    }: ResOptions<T>): Promise<
