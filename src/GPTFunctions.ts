@@ -81,4 +81,5 @@ export class GPTFunctions {
     }: ResOptions<T>): Promise<T> => {
         const response = await this.openai.createChatCompletion({
             model,
-            mes
+            messages: [
+       
