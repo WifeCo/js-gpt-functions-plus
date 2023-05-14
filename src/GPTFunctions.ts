@@ -83,4 +83,4 @@ export class GPTFunctions {
             model,
             messages: [
                 {
-      
+                    r
