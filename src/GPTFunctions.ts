@@ -83,4 +83,5 @@ export class GPTFunctions {
             model,
             messages: [
                 {
-                    r
+                    role: 'system',
+   
