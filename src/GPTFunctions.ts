@@ -80,4 +80,4 @@ export class GPTFunctions {
         postProcess = (res: unknown) => res as T
     }: ResOptions<T>): Promise<T> => {
         const response = await this.openai.createChatCompletion({
-  
+            model,
