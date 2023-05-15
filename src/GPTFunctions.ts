@@ -87,4 +87,4 @@ export class GPTFunctions {
                     content: getContentString(func, desc)
                 },
                 {
-           
+                    role: 
