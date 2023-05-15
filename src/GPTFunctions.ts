@@ -84,4 +84,5 @@ export class GPTFunctions {
             messages: [
                 {
                     role: 'system',
-                    content: getContentString(func
+                    content: getContentString(func, desc)
+            
