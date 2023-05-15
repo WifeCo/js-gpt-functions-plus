@@ -88,4 +88,4 @@ export class GPTFunctions {
                 },
                 {
                     role: 'user',
-              
+                    content: args.join(
