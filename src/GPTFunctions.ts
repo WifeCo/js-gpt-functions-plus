@@ -92,4 +92,4 @@ export class GPTFunctions {
                 }
             ]
         })
-        return postProcess(response.d
+        return postProcess(response.data.choices[0].message?.cont
