@@ -96,4 +96,4 @@ export class GPTFunctions {
     }
 
     /**
-     *  Generate
+     *  Generate a function usin
