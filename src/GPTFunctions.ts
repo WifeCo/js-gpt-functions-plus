@@ -92,4 +92,4 @@ export class GPTFunctions {
                 }
             ]
         })
-        return postP
+        return postProcess(response.d
