@@ -92,4 +92,8 @@ export class GPTFunctions {
                 }
             ]
         })
-        return postProcess(response.data.choices[0].message?.cont
+        return postProcess(response.data.choices[0].message?.content)
+    }
+
+    /**
+  
