@@ -97,4 +97,4 @@ export class GPTFunctions {
 
     /**
      *  Generate a function using inly it's description
-     *  @param {Create
+     *  @param {CreateFucntionOpt
