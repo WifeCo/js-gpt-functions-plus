@@ -98,4 +98,4 @@ export class GPTFunctions {
     /**
      *  Generate a function using inly it's description
      *  @param {CreateFucntionOptions} options - The options for generating the function.
-     * 
+     *  @returns {Promise<T>} 
