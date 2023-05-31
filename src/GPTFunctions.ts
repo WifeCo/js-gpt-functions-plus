@@ -100,4 +100,5 @@ export class GPTFunctions {
      *  @param {CreateFucntionOptions} options - The options for generating the function.
      *  @returns {Promise<T>} - A promise that resolves to the generated function.
      */
-    public createFunction = async <T extends () => unknown>(options: CreateFucntionOptions<T> | string): Promise
+    public createFunction = async <T extends () => unknown>(options: CreateFucntionOptions<T> | string): Promise<T> => {
+     
