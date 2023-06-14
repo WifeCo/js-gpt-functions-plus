@@ -102,4 +102,5 @@ export class GPTFunctions {
      */
     public createFunction = async <T extends () => unknown>(options: CreateFucntionOptions<T> | string): Promise<T> => {
         if (typeof options === 'string') options = getDefaultCreateOptions(options)
-  
+        const {
+     
