@@ -104,4 +104,4 @@ export class GPTFunctions {
         if (typeof options === 'string') options = getDefaultCreateOptions(options)
         const {
             model = 'gpt-3.5-turbo',
-  
+            fu
