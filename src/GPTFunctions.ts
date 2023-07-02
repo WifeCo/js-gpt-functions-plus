@@ -105,4 +105,5 @@ export class GPTFunctions {
         const {
             model = 'gpt-3.5-turbo',
             func,
-           
+            desc,
+            evalu
