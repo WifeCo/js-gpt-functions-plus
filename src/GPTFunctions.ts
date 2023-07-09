@@ -106,4 +106,5 @@ export class GPTFunctions {
             model = 'gpt-3.5-turbo',
             func,
             desc,
-            evalu
+            evaluate = Function
+ 
