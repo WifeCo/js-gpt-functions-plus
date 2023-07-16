@@ -107,4 +107,4 @@ export class GPTFunctions {
             func,
             desc,
             evaluate = Function
-        } = options 
+        } = options as Required<Cre
