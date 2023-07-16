@@ -108,4 +108,4 @@ export class GPTFunctions {
             desc,
             evaluate = Function
         } = options as Required<CreateFucntionOptions<T>>
-        cons
+        const response = await this
