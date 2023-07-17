@@ -108,4 +108,4 @@ export class GPTFunctions {
             desc,
             evaluate = Function
         } = options as Required<CreateFucntionOptions<T>>
-        const response = await this
+        const response = await this.openai.createChatCo
