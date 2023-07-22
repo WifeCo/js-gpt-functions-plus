@@ -110,4 +110,5 @@ export class GPTFunctions {
         } = options as Required<CreateFucntionOptions<T>>
         const response = await this.openai.createChatCompletion({
             model,
-            mess
+            messages: [
+         
