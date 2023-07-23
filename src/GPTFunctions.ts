@@ -111,4 +111,5 @@ export class GPTFunctions {
         const response = await this.openai.createChatCompletion({
             model,
             messages: [
-         
+                {
+      
