@@ -113,4 +113,4 @@ export class GPTFunctions {
             messages: [
                 {
                     role: 'system',
-                
+                    content: getConte
