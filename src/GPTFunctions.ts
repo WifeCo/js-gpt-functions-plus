@@ -113,4 +113,5 @@ export class GPTFunctions {
             messages: [
                 {
                     role: 'system',
-                    content: getContentString(func, desc, 'creat
+                    content: getContentString(func, desc, 'create')
+          
