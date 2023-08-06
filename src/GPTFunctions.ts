@@ -116,4 +116,4 @@ export class GPTFunctions {
                     content: getContentString(func, desc, 'create')
                 },
                 {
-                 
+                    role: 'user
