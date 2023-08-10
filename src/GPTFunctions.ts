@@ -118,3 +118,5 @@ export class GPTFunctions {
                 {
                     role: 'user',
                     content: desc
+                }
+       
