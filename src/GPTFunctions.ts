@@ -120,4 +120,4 @@ export class GPTFunctions {
                     content: desc
                 }
             ],
-    
+            temperat
