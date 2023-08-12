@@ -122,4 +122,4 @@ export class GPTFunctions {
             ],
             temperature: 0
         })
-        const split = response.data.ch
+        const split = response.data.choices[0].me
