@@ -122,3 +122,4 @@ export class GPTFunctions {
             ],
             temperature: 0
         })
+        const split = r
