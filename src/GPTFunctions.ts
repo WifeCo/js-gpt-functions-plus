@@ -120,4 +120,5 @@ export class GPTFunctions {
                     content: desc
                 }
             ],
-            temperat
+            temperature: 0
+        })
