@@ -122,4 +122,4 @@ export class GPTFunctions {
             ],
             temperature: 0
         })
-        const split = r
+        const split = response.data.ch
