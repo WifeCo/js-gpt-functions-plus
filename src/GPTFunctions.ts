@@ -123,4 +123,4 @@ export class GPTFunctions {
             temperature: 0
         })
         const split = response.data.choices[0].message?.content.split('|') ?? ['a', 'return undefined']
-        const parameters = s
+        const parameters = split.shift() as string
