@@ -124,4 +124,5 @@ export class GPTFunctions {
         })
         const split = response.data.choices[0].message?.content.split('|') ?? ['a', 'return undefined']
         const parameters = split.shift() as string
-        const finalFunc = evaluate(parameters, cleanCode(split.join('
+        const finalFunc = evaluate(parameters, cleanCode(split.join('|'))) as T
+    
