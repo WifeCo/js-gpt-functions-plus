@@ -1,1 +1,1 @@
-exp
+export * from './GPTFunct
