@@ -1,1 +1,1 @@
-export * from './GPTFunct
+export * from './GPTFunctions'
