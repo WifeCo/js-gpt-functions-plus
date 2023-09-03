@@ -15,3 +15,18 @@ export const getContentString = (func: string, description = '', type: 'res' | '
                        Make sure the function body ends with a return statement. 
                        Type: ${func}`
 }
+
+export const cleanCode = (code: string): string => {
+    const pattern = /(```javascript|```|```js)\n([^]*?)\n```/
+    const match = code.match(pattern)
+    return match ? match[2] : code
+}
+
+export const getDefaultCreateOptions = <T extends () => unknown>(desc: string) => {
+    return {
+        desc,
+        func: '() => ()',
+        model: 'gpt-3.5-turbo',
+        evaluate: Function as unknown as (...args: string[]) => T
+    }
+}
