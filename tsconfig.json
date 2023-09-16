@@ -6,4 +6,5 @@
       "DOM"
     ],                         
     "module": "commonjs",
-    "declaration": true,           
+    "declaration": true,                     
+   
