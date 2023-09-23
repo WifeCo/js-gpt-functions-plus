@@ -7,4 +7,5 @@
     ],                         
     "module": "commonjs",
     "declaration": true,                     
-    "outDir": "./build",                   
+    "outDir": "./build",                        
+    "resolveJs
