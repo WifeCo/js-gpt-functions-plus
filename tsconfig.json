@@ -7,4 +7,4 @@
     ],                         
     "module": "commonjs",
     "declaration": true,                     
-    "outDir": "./buil
+    "outDir": "./build",                   
