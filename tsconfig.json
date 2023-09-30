@@ -9,4 +9,4 @@
     "declaration": true,                     
     "outDir": "./build",                        
     "resolveJsonModule": true,
-    "strict": true,   
+    "strict": true,                      
