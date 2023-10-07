@@ -10,4 +10,5 @@
     "outDir": "./build",                        
     "resolveJsonModule": true,
     "strict": true,                           
-    "esModuleInterop": true,         
+    "esModuleInterop": true,                  
+    "skipLi
