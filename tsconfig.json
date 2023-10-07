@@ -11,4 +11,4 @@
     "resolveJsonModule": true,
     "strict": true,                           
     "esModuleInterop": true,                  
-    "skipLi
+    "skipLibCheck": true,      
