@@ -13,3 +13,25 @@
 ## Installation
 
 ```shell
+npm install js-gpt-functions-plus
+```
+
+## Usage
+
+### Initialization of the GPT Functions class
+
+```js
+import { GPTFunctions } from 'js-gpt-functions-plus'
+
+const API_KEY = 'your-openai-api-key-here'
+const gpt = new GPTFunctions(API_KEY)
+```
+
+### **.createFunction()**
+
+#### Example Usage
+
+```js
+const celsiusToFahrenheit = await gpt.createFunction('convert the given temperature from Celsius to Fahrenheit')
+
+console.log(celsiusToFahrenheit(25))
