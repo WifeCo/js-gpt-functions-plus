@@ -35,3 +35,15 @@ const gpt = new GPTFunctions(API_KEY)
 const celsiusToFahrenheit = await gpt.createFunction('convert the given temperature from Celsius to Fahrenheit')
 
 console.log(celsiusToFahrenheit(25))
+console.log(celsiusToFahrenheit(10))
+```
+**Output**
+```js
+77
+50
+```
+
+#### Using the Options Object (Suggested method)
+```js
+const permutations = await gpt.createFunction({
+    func: '(array) => array',
