@@ -47,3 +47,20 @@ console.log(celsiusToFahrenheit(10))
 ```js
 const permutations = await gpt.createFunction({
     func: '(array) => array',
+    desc: 'Return all permutations of the passed array'
+})
+
+console.log(permutations([1,2,3]))
+```
+
+**Output**
+```js
+[
+  [ 1, 2, 3 ],
+  [ 1, 3, 2 ],
+  [ 2, 1, 3 ],
+  [ 2, 3, 1 ],
+  [ 3, 1, 2 ],
+  [ 3, 2, 1 ]
+]
+```
