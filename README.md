@@ -64,3 +64,19 @@ console.log(permutations([1,2,3]))
   [ 3, 2, 1 ]
 ]
 ```
+
+**⚠️ WARNING ⚠️**
+> NEVER PASS RAW USER INPUT WITHOUT VALIDATING IT FIRST. JSGPTFUNCTIONSPLUS UTILIZES THE JS FUNCTION CONSTRUCTOR, WHICH HAS THE POTENTIAL TO CARRY OUT ARBITRARY CODE. A MALICIOUS USER COULD EMPLOY THIS TO EXECUTE DAMAGING CODE ON YOUR SYSTEM. IT IS VITAL TO ASSESS USER INPUT AND SANITIZE IT BEFORE USAGE.
+
+.createFunction() is a method that takes a string as the function description or an object with the following attributes as its parameter:
+
+    func: a string that represents the type of the function
+    desc: a string that delineates the code's function
+    model: the name of the OpenAI model utilised to administer the code
+    evaluate: a function that translates the string into a functional code `Default: Function Constructor`
+
+The .createFunction() method returns a function that can be stirred with arguments to enact the code contained in the `func` property.
+
+It is important to note that the .createFunction() function does not carry out the code promptly, but instead offers a function that could be engaged to execute the code at a later time.
+
+### **GPTFunctions.prototype.getResult()**
