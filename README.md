@@ -80,3 +80,18 @@ The .createFunction() method returns a function that can be stirred with argumen
 It is important to note that the .createFunction() function does not carry out the code promptly, but instead offers a function that could be engaged to execute the code at a later time.
 
 ### **GPTFunctions.prototype.getResult()**
+
+```js
+const result = await gpt.getResult({
+    func: '(array, array) => array',
+    args: [['a', 'b', 'c'], ['x', 'y', 'z']],
+    desc: 'Forms an array of arrays, clustering the elements of each input array centered on their index.'
+})
+
+console.log(result)
+```
+
+**Output**
+```js
+[ [ 'a', 'x' ], [ 'b', 'y' ], [ 'c', 'z' ] ]
+```
