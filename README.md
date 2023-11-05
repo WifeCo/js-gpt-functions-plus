@@ -95,3 +95,20 @@ console.log(result)
 ```js
 [ [ 'a', 'x' ], [ 'b', 'y' ], [ 'c', 'z' ] ]
 ```
+
+GPTFunctions.prototype.getResult() is a function that takes an object with the succeeding properties as its parameter:
+
+- `func`: a string that represents the code ready for execution
+- `args`: an array of arrays, each containing the arguments to relay to the func.
+- `desc`: a string that outlines the code's purpose.
+- `model`: the label of the OpenAI model selected to run the code.
+- `postProcess`: a function to parse the API reply
+
+The `getResult()` method returns a Promise that settles to the result of executing the code.
+
+## Contribution and Acknowledgments
+
+For any queries or suggestions for advancement, please feel free to make a new issue or offer a pull request.
+
+- [OpenAI API](openai.com)
+- [Torantulino/AI_Functions](https://github.com/Torantulino/AI-Functions)
